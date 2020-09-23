@@ -2,8 +2,8 @@
 	"name": "@hydre/rgraph",
 	"version": "4.3.5",
 	"description": "A high performance Node.js RedisGraph client.",
-	"main": "src/index.js",
-	"type": "module",
+	"main": "index.js",
+	"module": "src/index.js",
 	"exports": {
 		".": "./src/index.js",
 		"./operators": "./src/operators.js"
@@ -41,6 +41,7 @@
 	},
 	"dependencies": {
 		"debug": "^4.1.1",
+		"esm": "^3.2.25",
 		"ioredis": "^4.17.3"
 	},
 	"devDependencies": {
